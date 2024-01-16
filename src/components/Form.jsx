@@ -68,7 +68,7 @@ export default function Form() {
           </button>
         </form>
       ) : (
-        <h4 className={styles.titleSucess}>Mensagem Enviada com Sucesso!</h4>
+        <h4 className={styles.titleSucess}>Vocé foi redirecionado para o Whatsapp</h4>
       )}
     </div>
   );

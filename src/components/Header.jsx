@@ -9,7 +9,7 @@ export default function Header() {
     <header className={styles.container}>
         <div className={styles.containerLogo}>  
             <div className={styles.containerTitle}>
-                <Image priority src={img} width='150' height='150' alt="" />
+                <Link href='/'><Image priority src={img} width='150' height='150' alt="" /></Link>
                 <div>
                     <p className={styles.professional}>Pisicóloga</p>
                     <h2 className={styles.name}>Pamela Martins</h2>

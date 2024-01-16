@@ -2,9 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     bottom: 0vh;
     position: fixed;
-    height: 5vh;
+    height: 6vh;
     background-color: #fbd2da;
     width: 100vw;
     font-weight: bold;
@@ -12,8 +13,16 @@
     font-size: 12px;
 }
 
+.footer p {
+    font-weight: normal;
+    font-family: Helvetica;
+    letter-spacing: 0.7px;
+}
+
 .footer h4 {
     display: inline;
+    font-family: Helvetica;
+    letter-spacing: 0.7px;
 }
 
 .footer span {
