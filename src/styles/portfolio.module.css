@@ -14,7 +14,18 @@
 }
 
 
-.container :nth-child(1) {
+.img {
    border-radius: 100%;
    border: 2px solid white;
+}
+
+.containerAbout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerAbout h1 {
+    color: #E83180;
 }
