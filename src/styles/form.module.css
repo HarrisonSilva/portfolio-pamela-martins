@@ -1,0 +1,39 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+
+.form input, .form textarea, .form button {
+    width: 30vw;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+.form button {
+    background-color: rgba(0, 0, 255, 0.200);
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.form input, .form button {
+    height: 5vh;
+}
+
+.form input, .form textarea::placeholder {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.form h2 {
+    font-weight: lighter;
+}
+
+.titleSucess {
+    color: rgb(0, 255, 0);
+    margin-top: 30vh;
+}

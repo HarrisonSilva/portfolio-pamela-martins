@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Rubik+Glitch&display=swap');
+
+.containerLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.containerLogo img {
+    border-radius: 100px;
+    margin: 5px;
+}
+
+.name {
+    font-family: Cinzel;
+    font-size: 30px;
+}
+
+.line {
+    border-color: black;
+    width: 70vw;
+    margin: auto;
+}
+
+.containerTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #FFE6EB;
+}
+
+.containerNaviBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.36);
+}
+
+.containerNaviBar li {
+    margin: 0.8vw;
+    list-style: none;
+  
+}
+
+.containerNaviBar li a {
+    text-decoration: none;
+    color: #3e3737;
+    font-weight: normal;
+}
+
+.containerNaviBar li a:hover {
+    border-bottom: 2px solid black;
+    font-weight: bold;
+    color: black;
+}
+
+
+.professional {
+    font-size: 15px;
+}
+
+.containerTitle :nth-child(3) {
+    font-weight: lighter;
+}
+
+.timeContainer {
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.timeContainer h4 {
+    font-size: 15px;
+}
+
+.timeContainer p {
+   font-size:  12px;
+}

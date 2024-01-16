@@ -1,0 +1,71 @@
+.cardBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh auto auto auto;
+    background-color: rgba(255, 255, 255, 0.525);
+    width: 90vw;
+    border-radius: 20px;
+    height: 60vh;
+}
+
+.tr1 {
+    margin: auto;
+}
+
+.cardBox h1 {
+    font-size: 30px;
+    font-weight: normal;
+    border-bottom: 1px solid #000;;
+    color: #000;;
+    margin-bottom: 3vh;
+}
+
+.cardBox p {
+    font-size: 20px;
+    color: #000;;
+}
+
+.containerCard {
+    display: flex;
+    flex-direction: column;
+    margin: 2vw;
+}
+
+.cardBoxTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh auto 10vh auto;
+    background-color: rgba(255, 255, 255, 0.525);
+    width: 90vw;
+    border-radius: 20px;
+    height: 100vh;
+}
+
+.cardBoxTwo h1 {
+    border-bottom: 1px solid #000;;
+    font-weight: normal;
+    margin-bottom: 3vh;
+    margin: 1vh;
+    color: #000;
+}
+
+.cardBoxTwo p {
+    font-size: 20px;
+    color: #000;;
+}
+
+.containerMaps  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerMaps :nth-child(1) {
+    border: none;
+    margin-bottom: 15vh;
+    border-radius: 5px;
+    border: 2px solid white;
+}

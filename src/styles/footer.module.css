@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0vh;
+    position: fixed;
+    height: 5vh;
+    background-color: #fbd2da;
+    width: 100vw;
+    font-weight: bold;
+    border-top: 1px solid white;
+    font-size: 12px;
+}
+
+.footer h4 {
+    display: inline;
+}
+
+.footer span {
+    font-weight: lighter;
+}
