@@ -16,3 +16,9 @@
     justify-content: center;
     text-decoration: none;
 }
+
+@media (max-width: 775px) {
+    .containerContact {
+        margin-top: 5vh;
+    }
+}
