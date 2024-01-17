@@ -82,3 +82,30 @@
 .timeContainer p {
    font-size:  12px;
 }
+
+@media (max-width: 775px) {
+    .containerLogo {
+        margin-top: 5vh;
+    }
+    .containerLogo img {
+        width: 100px;
+        height: 100px;
+    }
+  
+    .name {
+        font-size: 28px;
+    }
+    .timeContainer h4, .timeContainer p{
+        display: none;
+    }
+     .containerNaviBar {
+        height: 8vh;
+        margin-top: 2px;
+     }
+     .containerNaviBar li {
+        font-size: 18px;
+        margin: 5px;
+     }
+
+    
+}
