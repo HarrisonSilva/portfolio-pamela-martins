@@ -69,3 +69,33 @@
     border-radius: 5px;
     border: 2px solid white;
 }
+
+@media (max-width: 775px) {
+    .tr1 {
+        width: 300px;
+        height: 180px;
+        padding: 10px;
+    }
+    .cardBox {
+        flex-direction: column;
+        height: fit-content;
+    }
+    .cardBox h1, .cardBoxTwo h1 {
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .cardBox p, .cardBoxTwo p {
+        font-size: 17px;
+        text-align: center;
+    }
+    .cardBoxTwo {
+        flex-direction: column;
+        margin-top: 50px;
+        height: fit-content;
+    }
+    .containerMaps :nth-child(1) {
+        width: 350px;
+        height: 350px;
+    }  
+}
