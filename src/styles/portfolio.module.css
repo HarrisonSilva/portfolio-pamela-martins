@@ -29,3 +29,22 @@
 .containerAbout h1 {
     color: #E83180;
 }
+
+@media (max-width: 775px) {
+    .container {
+        flex-direction: column;
+    }
+    .img {
+        height: 250px;
+        width: 250px;
+    }
+    .container h1 {
+        font-size: 25px;
+    }
+    .container h4 {
+        font-size: 13px;
+    }
+    .containerAbout p{
+        padding: 5px;
+    }
+}
