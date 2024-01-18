@@ -41,7 +41,7 @@ export default function Form() {
         getBtn.style.backgroundColor = 'rgba(0, 0, 255, 0.200)'
     }
   }, [data]);
-
+  
   return (
     <div>
       {displayForm ? (
