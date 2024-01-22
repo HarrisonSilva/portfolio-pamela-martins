@@ -83,6 +83,7 @@
    font-size:  12px;
 }
 
+
 @media (max-width: 775px) {
     .containerLogo {
         margin-top: 5vh;
@@ -99,13 +100,41 @@
         display: none;
     }
      .containerNaviBar {
-        height: 8vh;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: flex-start;
+        width: 50vw;
+        height: 100vh;
         margin-top: 2px;
+        margin-left: 0vw;
+        display: none;
+        animation: sleep 1s forwards;
+        margin-left: -50vw;
      }
      .containerNaviBar li {
-        font-size: 18px;
+        font-size: 30px;
         margin: 5px;
      }
-
+     .menu {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100vw;
+        justify-content: center;
+        cursor: pointer;
+        height: 5vh;
+        margin-top: 0vh;
+     }
+     .menu div {
+        height: 5px;
+        width: 10vw;
+        background-color: rgb(16, 15, 15);
+        margin: 5px;
+    }
     
+    @keyframes sleep {
+        to {
+            transform: translateX(50vw);
+        }
+    }
 }
