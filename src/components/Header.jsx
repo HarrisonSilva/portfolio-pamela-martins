@@ -6,20 +6,20 @@ import styles from '../styles/header.module.css';
 import Link from 'next/link';
 
 export default function Header() {
-  const toogleMenuDisplay = (event) => {
+  const toogleMenuDisplay = () => {
+    const body = document.body.clientWidth
     const menuContainer = document.querySelector('#menu-container');
     const logo = document.querySelector('#logo');
     const computedStyle = window.getComputedStyle(menuContainer);
    
-    if (computedStyle.display === 'none') {
+    if (computedStyle.display === 'none' && body <= 775) {
       menuContainer.style.display = 'flex';
       logo.style.display = 'none'
-    } else {
-      menuContainer.style.display = 'none';
-      logo.style.display = 'flex'
-    }
-    
-  };
+    } else if (menuContainer.style.display = 'flex' && body > 775) {
+      menuContainer.style.display = 'flex';
+      logo.style.display = 'flex';
+  }
+}
 
   return (
     <>
